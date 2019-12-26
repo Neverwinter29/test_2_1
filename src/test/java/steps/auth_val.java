@@ -74,9 +74,9 @@ public class auth_val {
     @Then("Success redirect to account page")
     public void success_redirect_to_account_page(){
 
-//        String getUrl= driver.getCurrentUrl();
-//        String actualUrl = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
-//        Assert.assertEquals(getUrl, actualUrl);
+       String getUrl= driver.getCurrentUrl();
+       String actualUrl = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
+       Assert.assertEquals(getUrl, actualUrl);
 
 // зарегаться на сайте и сделать проверку в итоге
 
